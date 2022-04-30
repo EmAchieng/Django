@@ -10,3 +10,37 @@
 - python manage.py runserver.
 ### Create a template folder
 - Place it in the root directory.
+
+### Setup Guide
+- Create a virtual environment on your local
+
+```bash
+   pip install virtualenv
+```
+
+```bash
+   virtualenv name_of_virtual_env
+```
+
+- Activate virtualenv on Windows OS
+
+```bash
+    name_of_virtual_env/Scripts/activate
+```
+
+- Activate virtualenv on Linux OS
+
+```bash
+   source name_of_virtual_env/bin/activate
+```
+
+- Enter the project folder
+```bash
+cd django
+```
+
+- Run the project
+
+```bash
+python manage.py runserver
+```
